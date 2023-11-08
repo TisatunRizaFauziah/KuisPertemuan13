@@ -63,7 +63,7 @@ namespace KuisPertemuan13
                     tampil();
                     btnClear.PerformClick();
 
-                    MessageBox.Show("Delete Berhasil", "Delete pelatihan", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Delete Berhasil", "Delete pegawai", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     txtID.Focus();
                 }
                 catch (Exception ex)
@@ -73,7 +73,7 @@ namespace KuisPertemuan13
             }
             else
             {
-                MessageBox.Show("Error-pelatihan tidak terhapus", "Delete pelatihan",
+                MessageBox.Show("Error-pegawai tidak terhapus", "Delete pegawai",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             }
